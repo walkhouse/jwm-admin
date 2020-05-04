@@ -45,4 +45,6 @@ $ git config --global user.name "John Doe"
 $ git config --global user.email johndoe@example.com
 
 curl -u 'jwalkcoding' https://api.github.com/orgs/walkhouse/repos -d '{"name":"jwm-admin","description":"walkhouse work"}'
+git push -u origin master
+git remote add origin https://github.com/walkhouse/jwm-admin.git
 ```
