@@ -12,7 +12,7 @@ description
 
 ## Running the app
 
-```bash
+````bash
 # development
 $ npm run start
 
@@ -36,3 +36,13 @@ $ npm run test: e2e
 $ npm run test: cov
     ```
 
+````
+
+
+```
+
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+
+curl -u 'jwalkcoding' https://api.github.com/orgs/walkhouse/repos -d '{"name":"jwm-admin","description":"walkhouse work"}'
+```
